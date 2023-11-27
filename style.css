@@ -1,0 +1,28 @@
+#calculator{
+    border:2px solid black;
+    width: 35.5%;
+    background-color: grey;
+}
+#text_area {
+    font-size: 50px;
+    width: 90%;
+    box-sizing: content-box;
+    margin: 10px;
+    height: 70px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buttons {
+    font-size: 1.5em;
+    width: 65px;
+    height: 65px;
+    margin: 10px 20px;
+    background-color: cornsilk;
+    border-radius: 50px;
+    box-shadow: 3px 3px;
+}
